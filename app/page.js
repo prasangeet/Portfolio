@@ -1,9 +1,9 @@
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Skills from "@/components/skills";
-import Projects from "@/components/projects";
-import Contact from "@/components/contact";
-import CursorFollower from "@/components/cursor-follower";
+import Hero from "../components/hero";
+import About from "../components/about";
+import Skills from "../components/skills";
+import Projects from "../components/projects";
+import Contact from "../components/contact";
+import CursorFollower from "../components/cursor-follower";
 
 export default function Home() {
   return (
