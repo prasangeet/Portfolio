@@ -15,18 +15,18 @@ export default function Projects() {
       description:
         "A productivity app for managing tasks, projects, and team collaboration with drag-and-drop functionality.",
       image: "/flowforge.png",
-      tags: ["nextjs", "javascript", "nodejs", "firebase"],
+      tags: ["nextjs", "javascript", "nodejs", "firebase", "tailwind"],
       github: "https://github.com/prasangeet/FlowForge",
       demo: "https://flow-forge-delta.vercel.app",
     },
     {
       id: 2,
-      title: "Social Media App",
+      title: "CSR Connect",
       description:
-        "A full-featured social media application with real-time messaging, post sharing, and user profiles.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["react", "nodejs", "mongodb"],
-      github: "#",
+        "CSR Connect is a platform that bridges the gap between corporate social responsibility (CSR) initiatives and academic research aligned with the UN Sustainable Development Goals (SDGs). It automates the process of mapping CSR activities to relevant SDGs and helps companies connect with research projects for meaningful social impact.",
+      image: "/csr-connect.png",
+      tags: ["nextjs", "django", "postgresql"],
+      github: "https://github.com/prasangeet/CSRconnect",
       demo: "#",
     },
     {
@@ -36,9 +36,19 @@ export default function Projects() {
         "A modern portfolio website for creative professionals with smooth animations and responsive design.",
       image: "/portfolio.png",
       tags: ["nextjs", "tailwind", "framer"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/prasangeet/Portfolio",
+      demo: "https://prasangeetdongre.vercel.app",
     },
+    {
+      id: 4,
+      title: "Pathfinding Visualizer",
+      description:
+       "Develop a platform using Dijkstra’s algorithm to compute the most valid and shortest routes. The system will use C++ for computation, Django for backend, PostgreSQL for data storage, and Next.js for frontend. OpenStreetMap vector tiles will be used for visualization.",
+      image: "/pathfinding.png",
+      tags: ["nextjs", "c++", "algorithms", "graphs", "django", "postgresql"],
+      github: "https://github.com/prasangeet/Pathfinding",
+      demo: "#",
+    }
   ];
 
   const filters = [
@@ -48,6 +58,7 @@ export default function Projects() {
     { name: "NLP", value: "nlp" },
     { name: "Node.js", value: "nodejs" },
     { name: "Django", value: "django" },
+    { name: "Algorithms", value: "algorithms" },
   ];
 
   const filteredProjects =
