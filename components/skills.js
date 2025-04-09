@@ -19,6 +19,7 @@ import {
   SiPytorch,
   SiTensorflow,
   SiPostgresql,
+  SiCplusplus,
 } from "react-icons/si"
 
 export default function Skills() {
@@ -26,6 +27,8 @@ export default function Skills() {
     { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
     { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+    { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
+    { name: "C++", icon: SiCplusplus, color: "#E34F26" },
     { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
     { name: "Git", icon: SiGit, color: "#F05032" },
     { name: "Python", icon: SiPython, color: "#31A8FF" },
@@ -33,6 +36,9 @@ export default function Skills() {
     { name: "Pytorch", icon: SiPytorch, color: "#FB5625" },
     { name: "Tensorflow", icon: SiTensorflow, color: "#F7DF1E" },
     { name: "PostgreSQL", icon: SiPostgresql, color: "#31A8FF" },
+    { name: "React", icon: SiReact, color: "#61DAFB" },
+    { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+    { name: "Figma", icon: SiFigma, color: "#F24E1E" },
   ]
 
   const container = {
@@ -63,7 +69,7 @@ export default function Skills() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Skills</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
           <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
-            I've worked with a variety of technologies in the web development world. Here are the main tools and
+            I've worked with a variety of technologies in the development and ML world. Here are the main tools and
             technologies I use to bring ideas to life.
           </p>
         </motion.div>

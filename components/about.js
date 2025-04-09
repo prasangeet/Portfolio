@@ -1,11 +1,14 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-background to-gray-900">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-b from-background to-gray-900"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0 }}
@@ -51,14 +54,23 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-gray-100">Who am I?</h3>
             <p className="text-gray-300 leading-relaxed">
-              I'm a passionate frontend developer with over 5 years of experience creating beautiful, responsive, and
-              user-friendly web applications. I specialize in modern JavaScript frameworks like React and Next.js, and
-              I'm dedicated to writing clean, efficient, and maintainable code.
+              I’m Prasangeet Dongre, a curious mind and a builder at heart,
+              currently pursuing Chemical Engineering at IIT Jodhpur. While my
+              academic foundation is rooted in core engineering, my passion lies
+              in code — not just writing it, but designing systems that make
+              sense, scale well, and solve real-world problems.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              My journey in web development started when I built my first website at the age of 16. Since then, I've
-              worked with various clients and companies to bring their digital visions to life. I'm constantly learning
-              and exploring new technologies to stay at the forefront of web development.
+              Over time, I’ve found myself drawn toward the beautiful complexity
+              of software development — from backend architecture and database
+              design to DevOps and AI-driven tools. I enjoy tackling tough
+              challenges, especially ones that blend structure with creativity.
+              Whether it's building in-house tools, optimizing algorithms, or
+              integrating AI into everyday workflows, I like pushing boundaries
+              and learning along the way.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              
             </p>
             <div className="pt-4">
               <a
@@ -72,6 +84,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

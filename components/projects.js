@@ -43,12 +43,12 @@ export default function Projects() {
       id: 4,
       title: "Pathfinding Visualizer",
       description:
-       "Develop a platform using Dijkstra’s algorithm to compute the most valid and shortest routes. The system will use C++ for computation, Django for backend, PostgreSQL for data storage, and Next.js for frontend. OpenStreetMap vector tiles will be used for visualization.",
+        "Develop a platform using Dijkstra’s algorithm to compute the most valid and shortest routes. The system will use C++ for computation, Django for backend, PostgreSQL for data storage, and Next.js for frontend. OpenStreetMap vector tiles will be used for visualization.",
       image: "/pathfinding.png",
       tags: ["nextjs", "c++", "algorithms", "graphs", "django", "postgresql"],
-      github: "https://github.com/prasangeet/Pathfinding",
+      github: "https://github.com/prasangeet/Pathfinding-DSA-project",
       demo: "#",
-    }
+    },
   ];
 
   const filters = [
