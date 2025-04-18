@@ -1,9 +1,12 @@
-Perfect! Here's a professional `README.md` tailored for your portfolio built with Next.js and deployed on Vercel:
-
-```markdown
 # Personal Portfolio
 
+[![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&logoColor=white)](https://vercel.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This is my personal portfolio website built with **Next.js**. It serves as a professional introduction, showcasing my background, skills, projects, and contact information.
+
+---
 
 ## 🚀 Features
 
@@ -12,16 +15,22 @@ This is my personal portfolio website built with **Next.js**. It serves as a pro
 - **Projects** – A selection of notable projects I've worked on.
 - **Contact** – Easy ways to reach out or connect.
 
+---
+
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Deployment**: [Vercel](https://vercel.com/)
+- **Frontend Framework**: [Next.js](https://nextjs.org/)
+- **Deployment Platform**: [Vercel](https://vercel.com/)
+
+---
 
 ## 🔗 Live Demo
 
-You can view the live portfolio here: [https://prasangeetdongre.vercel.app](https://prasangeetdongre.vercel.app)
+👉 [View Portfolio](https://prasangeetdongre.vercel.app)  
 
-## 📦 Getting Started (For Local Development)
+---
+
+## 📦 Getting Started (Local Setup)
 
 To run this project locally:
 
@@ -43,13 +52,12 @@ To run this project locally:
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+---
+
 ## 📬 Contact
 
-If you'd like to connect or collaborate, feel free to reach out through the contact section on the website.
+Feel free to connect or collaborate via the contact section on the portfolio.
 
 ---
 
-Thank you for visiting!
-```
-
-Would you like me to customize any part (e.g. add project descriptions, tweak instructions, or include badges)?
+© [Prasangeet Dongre] — Built with ❤️ using Next.js.
